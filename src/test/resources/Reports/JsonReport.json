@@ -1,0 +1,571 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 869694399,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I give the baseURI and request Specifications",
+            "match": {
+              "location": "StepDefinition.i_give_the_baseURI_and_request_Specifications()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2025-02-06T04:31:24.684Z",
+        "line": 10,
+        "name": "Verify GET request method",
+        "description": "",
+        "id": "verify-the-apis-of-restful-booker-website;verify-get-request-method",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3479185300,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I send the \"GET\" request with \"getBookings\" endpoint",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"GET\"",
+                  "offset": 11
+                },
+                {
+                  "val": "\"getBookings\"",
+                  "offset": 30
+                }
+              ],
+              "location": "StepDefinition.i_send_the_request_with_endpoint(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2117700,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I verify the \"GET\" response code 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"GET\"",
+                  "offset": 13
+                },
+                {
+                  "val": "200",
+                  "offset": 33
+                }
+              ],
+              "location": "StepDefinition.i_verify_the_response_code(String,int)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@E2E"
+          },
+          {
+            "name": "@getRequest"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2942100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I give the baseURI and request Specifications",
+            "match": {
+              "location": "StepDefinition.i_give_the_baseURI_and_request_Specifications()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2025-02-06T04:31:29.051Z",
+        "line": 18,
+        "name": "Create Auth token",
+        "description": "",
+        "id": "verify-the-apis-of-restful-booker-website;create-auth-token",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2302048499,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I send the \"AUTH\" request with \"createAuth\" endpoint",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"AUTH\"",
+                  "offset": 11
+                },
+                {
+                  "val": "\"createAuth\"",
+                  "offset": 31
+                }
+              ],
+              "location": "StepDefinition.i_send_the_request_with_endpoint(String,String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@E2E"
+          },
+          {
+            "name": "@getToken"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 5501899,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I give the baseURI and request Specifications",
+            "match": {
+              "location": "StepDefinition.i_give_the_baseURI_and_request_Specifications()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2025-02-06T04:31:31.357Z",
+        "line": 24,
+        "name": "Verify POST request method",
+        "description": "",
+        "id": "verify-the-apis-of-restful-booker-website;verify-post-request-method",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 18729800,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "I give the \"POSTRequest\" body",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"POSTRequest\"",
+                  "offset": 11
+                }
+              ],
+              "location": "StepDefinition.i_give_the_body(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2410691701,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "I send the \"POST\" request with \"createBooking\" endpoint",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"POST\"",
+                  "offset": 11
+                },
+                {
+                  "val": "\"createBooking\"",
+                  "offset": 31
+                }
+              ],
+              "location": "StepDefinition.i_send_the_request_with_endpoint(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 507600,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "I verify the \"POST\" response code 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"POST\"",
+                  "offset": 13
+                },
+                {
+                  "val": "200",
+                  "offset": 34
+                }
+              ],
+              "location": "StepDefinition.i_verify_the_response_code(String,int)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@E2E"
+          },
+          {
+            "name": "@postRequest"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2521599,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I give the baseURI and request Specifications",
+            "match": {
+              "location": "StepDefinition.i_give_the_baseURI_and_request_Specifications()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2025-02-06T04:31:33.798Z",
+        "line": 34,
+        "name": "Verify PUT request method",
+        "description": "",
+        "id": "verify-the-apis-of-restful-booker-website;verify-put-request-method",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 15098801,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "I give the \"PUTRequest\" body",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"PUTRequest\"",
+                  "offset": 11
+                }
+              ],
+              "location": "StepDefinition.i_give_the_body(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1724410000,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "I send the \"PUT\" request with \"updateBooking\" endpoint",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"PUT\"",
+                  "offset": 11
+                },
+                {
+                  "val": "\"updateBooking\"",
+                  "offset": 30
+                }
+              ],
+              "location": "StepDefinition.i_send_the_request_with_endpoint(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1823001,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "I verify the \"PUT\" response code 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"PUT\"",
+                  "offset": 13
+                },
+                {
+                  "val": "200",
+                  "offset": 33
+                }
+              ],
+              "location": "StepDefinition.i_verify_the_response_code(String,int)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@E2E"
+          },
+          {
+            "name": "@putRequest"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 7057300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I give the baseURI and request Specifications",
+            "match": {
+              "location": "StepDefinition.i_give_the_baseURI_and_request_Specifications()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2025-02-06T04:31:35.543Z",
+        "line": 44,
+        "name": "Verify PATCH request method",
+        "description": "",
+        "id": "verify-the-apis-of-restful-booker-website;verify-patch-request-method",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 12769999,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "I give the \"PATCHRequest\" body",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"PATCHRequest\"",
+                  "offset": 11
+                }
+              ],
+              "location": "StepDefinition.i_give_the_body(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1717584801,
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "I send the \"PATCH\" request with \"partialUpdateBooking\" endpoint",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"PATCH\"",
+                  "offset": 11
+                },
+                {
+                  "val": "\"partialUpdateBooking\"",
+                  "offset": 32
+                }
+              ],
+              "location": "StepDefinition.i_send_the_request_with_endpoint(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError\r\n\tat org.junit.Assert.fail(Assert.java:87)\r\n\tat org.junit.Assert.assertTrue(Assert.java:42)\r\n\tat org.junit.Assert.assertFalse(Assert.java:65)\r\n\tat org.junit.Assert.assertFalse(Assert.java:75)\r\n\tat org.step.StepDefinition.i_verify_the_response_code(StepDefinition.java:127)\r\n\tat ✽.I verify the \"PATCH\" response code 200(file:src/test/resources/Features/tests.feature:50)\r\n",
+              "duration": 3778200,
+              "status": "failed"
+            },
+            "line": 50,
+            "name": "I verify the \"PATCH\" response code 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"PATCH\"",
+                  "offset": 13
+                },
+                {
+                  "val": "200",
+                  "offset": 35
+                }
+              ],
+              "location": "StepDefinition.i_verify_the_response_code(String,int)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@E2E"
+          },
+          {
+            "name": "@patchRequest"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 8212300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I give the baseURI and request Specifications",
+            "match": {
+              "location": "StepDefinition.i_give_the_baseURI_and_request_Specifications()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2025-02-06T04:31:37.295Z",
+        "line": 54,
+        "name": "Verify DELETE request method",
+        "description": "",
+        "id": "verify-the-apis-of-restful-booker-website;verify-delete-request-method",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4794800,
+              "status": "passed"
+            },
+            "line": 56,
+            "name": "I give the baseURI and request Specifications",
+            "match": {
+              "location": "StepDefinition.i_give_the_baseURI_and_request_Specifications()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1709792800,
+              "status": "passed"
+            },
+            "line": 58,
+            "name": "I send the \"DELETE\" request with \"deleteBooking\" endpoint",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"DELETE\"",
+                  "offset": 11
+                },
+                {
+                  "val": "\"deleteBooking\"",
+                  "offset": 33
+                }
+              ],
+              "location": "StepDefinition.i_send_the_request_with_endpoint(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 309400,
+              "status": "passed"
+            },
+            "line": 60,
+            "name": "I verify the \"DELETE\" response code 201",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"DELETE\"",
+                  "offset": 13
+                },
+                {
+                  "val": "201",
+                  "offset": 36
+                }
+              ],
+              "location": "StepDefinition.i_verify_the_response_code(String,int)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@E2E"
+          },
+          {
+            "name": "@deleteRequest"
+          }
+        ]
+      }
+    ],
+    "name": "Verify the APIs of Restful-Booker website",
+    "description": "",
+    "id": "verify-the-apis-of-restful-booker-website",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/tests.feature",
+    "tags": [
+      {
+        "name": "@E2E",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

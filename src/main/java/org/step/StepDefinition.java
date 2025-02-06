@@ -67,16 +67,16 @@ public class StepDefinition extends Builder {
 
 		} else if (string.equalsIgnoreCase("PUT")) {
 
-			response = spec.when().put(endPoint+bookingID).then().assertThat().extract().response();
+			response = spec.when().put(endPoint + bookingID).then().assertThat().extract().response();
 
+		} else if (string.equalsIgnoreCase("PATCH")) {
 
-		}else if (string.equalsIgnoreCase("PATCH")) {
+			response = spec.when().patch(endPoint + bookingID).then().assertThat().extract().response();
 
-			response = spec.when().patch(endPoint+bookingID).then().assertThat().extract().response();
+		} else if (string.equalsIgnoreCase("DELETE")) {
 
-		}else if (string.equalsIgnoreCase("DELETE")) {
-
-			response = spec.cookie("token", token).when().delete(endPoint+bookingID).then().assertThat().extract().response();
+			response = spec.cookie("token", token).when().delete(endPoint + bookingID).then().assertThat().extract()
+					.response();
 
 		}
 
@@ -88,7 +88,7 @@ public class StepDefinition extends Builder {
 		if (string.equalsIgnoreCase("GET")) {
 
 			Assert.assertEquals(getResponseCode(response), int1);
-			
+
 			System.out.println(int1);
 
 		} else if (string.equalsIgnoreCase("POST")) {
@@ -96,7 +96,7 @@ public class StepDefinition extends Builder {
 			Assert.assertEquals(getResponseCode(response), int1);
 
 			System.out.println(int1);
-			
+
 			System.out.println(getResponseBody(response));
 
 		} else if (string.equalsIgnoreCase("PUT")) {
@@ -104,27 +104,24 @@ public class StepDefinition extends Builder {
 			Assert.assertEquals(getResponseCode(response), int1);
 
 			System.out.println(int1);
-			
-			System.out.println(getResponseBody(response));
-			
-			
 
-		}else if (string.equalsIgnoreCase("PATCH")) {
+			System.out.println(getResponseBody(response));
+
+		} else if (string.equalsIgnoreCase("PATCH")) {
 
 			Assert.assertEquals(getResponseCode(response), int1);
 
 			System.out.println(int1);
-			
+
 			System.out.println(getResponseBody(response));
-			
-		}else if (string.equalsIgnoreCase("DELETE")) {
+
+		} else if (string.equalsIgnoreCase("DELETE")) {
 
 			Assert.assertEquals(getResponseCode(response), int1);
 
 			System.out.println(int1);
-			
+
 		}
-			
 
 	}
 
@@ -139,16 +136,12 @@ public class StepDefinition extends Builder {
 
 			spec.cookie("token", token);
 
-			
-			
 			spec.body(putRequestBody());
 
-		}else if (string.equalsIgnoreCase("PATCHRequest")) {
+		} else if (string.equalsIgnoreCase("PATCHRequest")) {
 
 			spec.cookie("token", token);
 
-			
-			
 			spec.body(patchRequestBody());
 
 		}
