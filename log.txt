@@ -1,0 +1,26 @@
+Request method:	DELETE
+Request URI:	https://restful-booker.herokuapp.com/booking/361
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		token=3ae6c925dd195d9
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 201 Created
+Server: Cowboy
+Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1738812095&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&s=M540p9mxUSwY5IaVzQ5iMTyNDQbBNawWzQ8UR5j4FNg%3D"}]}
+Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1738812095&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&s=M540p9mxUSwY5IaVzQ5iMTyNDQbBNawWzQ8UR5j4FNg%3D
+Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+Connection: keep-alive
+X-Powered-By: Express
+Content-Type: text/plain; charset=utf-8
+Content-Length: 7
+Etag: W/"7-rM9AyJuqT6iOan/xHh+AW+7K/T8"
+Date: Thu, 06 Feb 2025 03:21:35 GMT
+Via: 1.1 vegur
+
+Created
