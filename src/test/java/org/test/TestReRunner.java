@@ -6,7 +6,7 @@ import io.cucumber.junit.Cucumber;
 import io.cucumber.junit.CucumberOptions;
 
 @RunWith(Cucumber.class)
-@CucumberOptions(features="@src\\test\\resources\\Reports\\Rerun\\failed.txt", glue="org.step")
+@CucumberOptions(features="@src\\test\\resources\\Reports\\Rerun\\failed.txt", glue="org.step",dryRun=true)
 
 public class TestReRunner {
 

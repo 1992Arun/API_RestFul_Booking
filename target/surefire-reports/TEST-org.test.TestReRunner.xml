@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="6" failures="0" name="org.test.TestRunner" time="13.845" errors="0" skipped="0">
+<testsuite tests="1" failures="0" name="org.test.TestReRunner" time="0.006" errors="0" skipped="1">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jre1.8.0_333\bin"/>
@@ -61,10 +61,7 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="Verify the APIs of Restful-Booker website" name="Verify GET request method" time="4.313"/>
-  <testcase classname="Verify the APIs of Restful-Booker website" name="Create Auth token" time="2.282"/>
-  <testcase classname="Verify the APIs of Restful-Booker website" name="Verify POST request method" time="2.211"/>
-  <testcase classname="Verify the APIs of Restful-Booker website" name="Verify PUT request method" time="1.559"/>
-  <testcase classname="Verify the APIs of Restful-Booker website" name="Verify PATCH request method" time="1.636"/>
-  <testcase classname="Verify the APIs of Restful-Booker website" name="Verify DELETE request method" time="1.844"/>
+  <testcase classname="Verify the APIs of Restful-Booker website" name="Verify PATCH request method" time="0.006">
+    <skipped/>
+  </testcase>
 </testsuite>
